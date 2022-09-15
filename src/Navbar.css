@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0%;
+}
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#logo {
+  width: 3rem;
+  display: inline-block;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+i {
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.logoname {
+  display: flex;
+  padding: 1rem;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-solid {
+  margin-right: 2rem;
+}
+.List {
+  display: flex;
+  font-size: larger;
+}
+.List ul {
+  list-style-type: none;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+ul {
+  list-style: none;
+}
+#sign-up {
+  border: 1px solid white;
+  padding: 3px 0 3px 0;
+  margin-right: 1rem;
+  border-radius: 2px;
+}
